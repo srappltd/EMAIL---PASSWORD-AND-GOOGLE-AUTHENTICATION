@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= user.username %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <a href="/logout">Logout</a>
+    <h1>Deshboard</h1>
+    <p>Welcome to username - <%= user.username %></p>
+    <p>Welcome to email - <%= user.email %></p>
+    <p>Welcome to mobile - <%= user.mobile %></p>
+    <br>
+    profile pic
+    <img src="<%= user.picture%>" alt="">
+  </body>
+</html>
