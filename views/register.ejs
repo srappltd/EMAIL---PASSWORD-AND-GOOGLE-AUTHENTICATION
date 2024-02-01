@@ -6,12 +6,16 @@
     <title>Register</title>
 </head>
 <body>
-    <form action="/register" method="post">
-        <input type="text" placeholder="Enter username" name="username">
-        <input type="email" placeholder="Enter email" name="email">
-        <input type="tel" placeholder="Enter mobile" name="mobile">
-        <input type="password" placeholder="Enter password" name="password">
-        <button>Register</button>
-    </form>
+    <div style="display: flex; gap: 20px;">
+        <form action="/register" method="post">
+            <input type="text" placeholder="Enter username" name="username">
+            <input type="email" placeholder="Enter email" name="email">
+            <input type="tel" placeholder="Enter mobile" name="mobile">
+            <input type="password" placeholder="Enter password" name="password">
+            <button>Register</button>
+        </form>
+        <a href="/login"><button>Login Page</button></a>
+
+    </div>
 </body>
 </html>

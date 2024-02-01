@@ -6,11 +6,15 @@
     <title>Login</title>
 </head>
 <body>
-    <form action="/login" method="post">
-        <input type="text" placeholder="Enter email" name="email">
-        <input type="password" placeholder="Enter password" name="password">
-        <button>Login</button>
-        <a href="/login/federated/google">Google Login</a>
-    </form>
+    <div style="display: flex; gap: 20px;">
+        <form action="/login" method="post">
+            <input type="text" placeholder="Enter email" name="email">
+            <input type="password" placeholder="Enter password" name="password">
+            <button>Login</button>
+        </form>
+        <a href="/register"><button>Register Page</button></a>
+        <a href="/login/federated/google"><button>Google Login</button></a>
+
+    </div>
 </body>
 </html>
